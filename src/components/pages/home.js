@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom"
 import HomeImg from "../images/home.png"
 import MobileImg from "../images/mobile.png"
 import CarImg from "../images/car.png"
-
 import CodeImg from "../images/code.png"
 import GuidelinesImg from "../images/guidelines.png"
 import SupportImg from "../images/support.png"
+
+
 
 export default function Home() {
 
@@ -15,7 +17,7 @@ export default function Home() {
             <div className="SectionContent">
               <h1>The easiest way to create</h1> 
               <h1>and send emails</h1>
-              <button className="darkBtn w300">Get Started</button>
+              <Link to="create"><button className="darkBtn w300">Get Started</button></Link>
             </div>
 
             <div className="SectionImage">
@@ -94,7 +96,7 @@ export default function Home() {
         <section className="CenterSectionWrapper">
           <div className="CenterSectionContainer">
             <h1>Start Creating Professional and Responsive Email Designs</h1>
-            <button className="purpleBtn w300">Get Stated</button>
+            <Link to="create"><button className="purpleBtn w300">Get Stated</button></Link>
           </div>
         </section>
       </div>
