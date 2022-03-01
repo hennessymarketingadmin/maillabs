@@ -95,7 +95,7 @@ export default function Home() {
         </section> */}
         <section className="CenterSectionWrapper">
           <div className="CenterSectionContainer">
-            <h1>Start Creating Professional and Responsive Email Designs</h1>
+            <center><h1>Start Creating Professional and Responsive Email Designs</h1></center>
             <Link to="create"><button className="purpleBtn w300">Get Stated</button></Link>
           </div>
         </section>

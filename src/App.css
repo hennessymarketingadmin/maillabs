@@ -4,7 +4,6 @@ h1 {
     font-size: 50px;
     margin: 0px;
 }
-
 .headerWrapper {
     display: flex;
     flex-direction: row;
@@ -21,7 +20,6 @@ h1 {
     padding: 15px;
     background-color: white;
 }
-
 .footerWrapper {
     display: flex;
     flex-direction: row;
@@ -42,7 +40,7 @@ h1 {
     background-color: rgb(41, 41, 56);
 }
 .headerBtnContainer {
-width: 600px;
+width: 700px;
 /* border: 1px solid red; */
 display: flex;
 flex-direction: row;
@@ -119,7 +117,6 @@ button:hover {
     justify-content: center;
     align-items: center;
 }
-
 .testing {
     width: 600px;
     height: 500px;
@@ -129,13 +126,11 @@ button:hover {
     width: 300px;
     margin-top: 50px;
 }
-
 .CenterSectionWrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
     background-color: rgb(242, 242, 242);
-
 }
 .CenterSectionContainer {
     width: 1440px;
@@ -143,14 +138,12 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 10px 100px 10px;
     background-color: rgb(242, 242, 242);
 }
 .text-right {
     text-align: right;
 }
-
 .footerBtn, .footerLogo {
     color: white;
     text-decoration: none;
@@ -160,4 +153,47 @@ button:hover {
 .logo {
     color: black;
     text-decoration: none;
+}
+.createContainer {
+    /* height: 600px; */
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    border-top: 1px solid rgb(242, 242, 242);
+}
+.createWrapper {
+    /* border: 1px solid green; */
+    width: 1440px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+}
+.createNav {
+    /* border: 1px solid blue; */
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(242, 242, 242);
+    /* background-color: white; */
+    /* background-color: rgb(41, 41, 56); */
+}
+.createCanvas {
+    /* border: 1px solid red; */
+    width: 70%;
+    /* background-color: rgb(242, 242, 242); */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgb(242, 242, 242);
+}
+.canvas {
+    border: 1px dashed grey;
+    width: 300px;
+    height: 500px;
 }

@@ -4,8 +4,17 @@
 export default function Create() {
 
     return (
-      <div>
-        Create
+      <div className="createContainer">
+        <div className="createWrapper">
+          <div className="createNav">
+            <button className="purpleBtn">COPY CODE</button>
+          </div>
+          <div className="createCanvas">
+            <div className="canvas">
+
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
